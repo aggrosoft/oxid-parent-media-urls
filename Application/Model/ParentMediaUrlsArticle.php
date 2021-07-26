@@ -1,8 +1,8 @@
 <?php
 
-
 namespace Aggrosoft\ParentMediaUrls\Application\Model;
 
+use OxidEsales\Eshop\Core\TableViewNameGenerator;
 
 class ParentMediaUrlsArticle extends ParentMediaUrlsArticle_parent
 {
