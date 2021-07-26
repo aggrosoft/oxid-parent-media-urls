@@ -1,0 +1,26 @@
+{
+  "name": "aggrosoft/oxid-parent-media-urls",
+  "type": "oxideshop-module",
+  "description": "Load Media Urls from parent",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "authors": [
+    {
+      "name": "Alexander Kludt",
+      "homepage": "https://github.com/aggrosoft"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "agparentmediaurls"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\ParentMediaUrls\\": "../../../source/modules/agparentmediaurls"
+    }
+  },
+  "version": "1.0.0"
+}
